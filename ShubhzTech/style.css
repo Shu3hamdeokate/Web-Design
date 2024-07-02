@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 5px;
+}
+
+#nav1 h3{
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 7px 12px;
+    border-radius: 50px;
+     font-weight: 500;
+}
+#nav1 i {
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 7px 12px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav2 h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+     
+}
+
+nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+}
+
+#btn-2{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+#nav2 img{
+    height: 55px;
+    width: 65px;
+}
+
+#main>span{
+    font-size: 120px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+#main>img{
+    height: 380px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+img#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+img#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+img#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+footer{
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;        
+    height: 60px;
+    
+}
+
+footer span{
+    position: absolute;
+    left: 40px;
+    
+}
+
+.orange-sphere {
+    position: absolute;
+    left: 40px;
+    /* Adjust as needed */
+    bottom: 50px;
+    /* Adjust as needed */
+    width: 8px;
+    height: 8px;
+    background-color: orangered;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Adds a shadow for a more 3D look */
+}
+
+.image{
+    position: absolute;
+    display: flex;
+    right: 205px;
+    /* Adjust as needed */
+    bottom: 50px;
+    width: 22px;
+    height: 22px;
+    gap: 25px;
+    
+}
+
+.footer-text{
+    position: absolute;
+    right:75px;
+    bottom: 20px;
+}
